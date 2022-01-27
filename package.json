@@ -6,7 +6,7 @@
     "css-loader": "^3.5.3",
     "object-hash": "^2.0.3",
     "style-loader": "^1.2.1",
-    "three": "^0.116.1",
+    "three": "^0.137.0",
     "ts-loader": "^7.0.4",
     "typescript": "^3.9.2",
     "webpack": "^4.43.0",
