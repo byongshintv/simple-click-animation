@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "animejs": "^3.2.0",
-    "css-loader": "^3.5.3",
+    "css-loader": "^6.8.1",
     "object-hash": "^2.0.3",
     "style-loader": "^1.2.1"
   },
