@@ -1,18 +1,19 @@
-const webpack = require("webpack");
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin")
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
+    mode:"production",
     // 다른 모듈을 사용하고 있는 최상위 자바스크립트 파일
     entry:"./src/index.ts",
     
     output:{
         filename:"bundle.js",
         // output 설정은 항상 프로젝트 내부라는 보장이 없기에 절대경로를 사용함
-        path:path.resolve(__dirname,"dist")
+        path:path.resolve(__dirname,"dist"),
+        clean:true
     },
     devtool:'source-map',
     devServer:{
-        contentBase:"./dist",
+        static:"./dist",
         open:true
     },
     resolve: {
